@@ -1,1 +1,6 @@
-'Add first workflow'
+workflows:
+  default-workflow:
+    name: Default Workflow
+    max_build_duration: 60
+    scripts:
+      - echo "Hello Codemagic"
